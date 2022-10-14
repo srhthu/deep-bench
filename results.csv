@@ -1,0 +1,2 @@
+date,hostname,gpu,cpu,nbatch,bs,duration,speed_it,speed_sample
+2022-10-14 16:09:24,catX,NVIDIA GeForce RTX 3090,Intel(R) Core(TM) i9-10900X CPU @ 3.70GHz,100,8,20.1104,4.9726,39.7805
