@@ -6,4 +6,4 @@ else
     exit 1
 fi
 CUDA_VISIBLE_DEVICES=${gpu} python run.py \
--n 100 --bs 8 --write
+-n 100 --bs 8 `#--write`
