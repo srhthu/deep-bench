@@ -61,7 +61,7 @@ def train_model(model, optim, token_ids, labels):
         optim.zero_grad()
         outputs = model(x, labels = y)
         outputs.loss.backward()
-        optim.step()
+       # optim.step()
     end = time.time()
     duration = end - start
     return duration
